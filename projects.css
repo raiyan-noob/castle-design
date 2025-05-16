@@ -40,14 +40,7 @@ body {
     user-select: none;
     font-family: initial;
   }
-  @media (max-width: 403px) {
-    .boxed-title {
-      max-width: 90vw;
-      font-size: 2rem;
-      padding: 10px 20px;
-      margin-bottom: 30px;
-    }
-  }
+  
  
   .box-container{
     display: flex;
@@ -95,7 +88,6 @@ a.box-link {
     transition: filter 0.3s ease;
     pointer-events: none;
   }
-
   .overlay-text {
     position: absolute;
     top: 50%;
@@ -111,7 +103,6 @@ a.box-link {
     transition: opacity 0.3s ease;
     text-shadow: 0 0 8px rgba(0,0,0,0.7);
   }
-
   a.box-link:hover img,
   a.box-link:focus img {
     filter: blur(4px);
@@ -197,19 +188,83 @@ footer {
   color: aliceblue;
   font-size: 1.2em;
   font-family: serif
-}
+} 
 
-  @media (max-width: 400px) {
-    a.box-link {
-      max-width: 90vw;
-      padding: 12px;
-    }
-    .title {
-      font-size: 2rem;
-      margin-top: 16px;
-    }
-    .overlay-text {
-      font-size: 1.4rem;
-    }
+
+  @media screen and (max-width: 768px) {
+    #cas-image {
+    min-height: auto;
+    height: auto;
+    padding: 12px;
+    background-attachment: scroll;
+    background-position: center;
+  }
+
+  .boxes-container,
+  .box-container {
+    flex-wrap: wrap; 
+    justify-content: center;
+      margin: 10px;
+   gap: 29px;
+  }
+
+  .boxed-title {
+    font-size: 1.5rem;
+    padding: 9px 2px;
+    margin: 20px auto;
+    width: 54%;
+  }
+
+  a.box-link {
+    width: 100%;
+    margin: 1px 0;
+    padding: 21px;
+  }
+
+  .title {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: -11px;
+  }
+
+  .overlay-text {
+    font-size: 1rem;
+  }
+    footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .footer-social {
+    position: left;
+    margin-bottom: 51px;
+    margin-top: -41px;
+    margin-left: 10px;
+  }
+
+  .footer-social a {
+    display: inline-block;
+    margin: 16px 15px;
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+
+  .footer-nav {
+    position: static;
+    margin-bottom: -9px;
+  }
+
+  .footer-nav a {
+    display: inline-block;
+    margin: 0 11px;
+    font-size: 1.2em;
+  }
+
+  .footer-copyright {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 48px;
+    width: 100%;
+  }
   }
 

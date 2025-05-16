@@ -283,7 +283,124 @@ footer {
   font-family: serif
 }
 
+@media (max-width: 768px) {
+   #background-container {
+    height: 73vh;
+    flex-direction: row;
+    align-items: stretch;
+  }
 
+  .container {
+    width: 50%;
+    height: 100%;
+    padding: 6px;
+    backdrop-filter: blur(10px);
+    background: rgba(86, 86, 86, 0.3);
+  }
+
+  .logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 8;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  header h1 {
+    font-size: 2.2em;
+  }
+
+  header p {
+    font-size: 1.2em;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  nav ul li {
+    margin: 6px;
+  }
+
+  nav ul li a {
+    padding: 14px 15px;
+    font-size: 1em;
+  }
+#bas-image {
+    padding: 1px;
+    background-attachment: scroll;
+    align-items: center;
+  min-height: 137vh;
+  }
+
+  #ek
+  {
+    width: 100%;
+    font-size: 1.5em;
+    padding: 8px;
+    text-align: center;
+    margin-right: 5px;
+  }
+
+  #e {
+    font-size: 2.1em;
+    text-align: center;
+  }
+  #arek 
+  {
+    text-align: center;
+    margin-left: 312px;
+    font-size: 2.2em;
+  }
+  #dui 
+  {
+    margin-left: 31px;
+    font-size: 1.5em;
+    padding: 24px;
+    width: 73%;
+    margin-top: 0px;
+  }
+footer {
+    padding: 16px;
+    text-align: center;
+  }
+
+  .footer-social {
+    position: left;
+    margin-bottom: 38px;
+  }
+
+  .footer-social a {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 9px 15px;
+    font-size: 0.9em;
+  }
+
+  .footer-nav {
+    position: static;
+    margin-bottom: -9px;
+  }
+
+  .footer-nav a {
+    display: inline-block;
+    margin: 0 11px;
+    font-size: 1.2em;
+  }
+
+  .footer-copyright {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 41px;
+    width: 100%;
+  }
+
+}
 
 
 

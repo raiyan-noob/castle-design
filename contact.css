@@ -45,14 +45,6 @@ body {
     user-select: none;
     font-family: monospace;
   }
-  @media (max-width: 403px) {
-    .boxed-title {
-      max-width: 90vw;
-      font-size: 2rem;
-      padding: 10px 20px;
-      margin-bottom: 30px;
-    }
-  }
       .btn-container {
       display: flex;
       justify-content: center;
@@ -85,12 +77,6 @@ body {
     .btn-text:hover {
       background-color: #006fd6;
       transform: scale(1.05);
-    }
-@media(max-width: 400px) {
-      .btn {
-        font-size: 1rem;
-        padding: 12px 25px;
-      }
     }
 
 footer {
@@ -136,16 +122,54 @@ footer {
   font-family: serif
 }
 
-  @media (max-width: 400px) {
+  @media (max-width: 768px) {
+    #cas-image {
+    padding: 16px;
+    background-attachment: scroll;
+    background-position: center;
+    }
     a.box-link {
-      max-width: 90vw;
+      max-width: 92vw;
       padding: 12px;
     }
     .title {
       font-size: 2rem;
-      margin-top: 16px;
+      margin-top: 11px;
     }
     .overlay-text {
       font-size: 1.4rem;
     }
+    .btn {
+        font-size: 1.5em;
+        padding: 12px 25px;
+      margin-top: 20px;
+      }
+      .boxed-title {
+      max-width: 90vw;
+      font-size: 2rem;
+      padding: 10px 20px;
+      margin-bottom: 30px;
+    }
+    footer {
+    padding: 16px;
+    text-align: center;
+      
+  }
+    .footer-nav {
+    position: static;
+    margin-bottom: 60px;
+  }
+
+  .footer-nav a {
+    display: inline-block;
+    margin: 0 11px;
+    font-size: 1.4em;
+  }
+
+  .footer-copyright {
+    text-align: center;
+    font-size: 1.3em;;
+    margin-bottom: 6px;
+    width: 100%;
+  }
   }
