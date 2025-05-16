@@ -217,7 +217,7 @@ button:hover {
 footer {
   background-color: black;
   padding: 38px;
-  position: absolute;
+  position: relative;
   width: 95%;
   margin-top: 2px;
   margin-right: 85px;
