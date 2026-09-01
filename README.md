@@ -24,9 +24,7 @@ Castle Design presents a polished multi-page interface for showcasing design pro
 
 ## 📸 Screenshot
 
-> Add a current screenshot of the deployed website here when available:
->
-> `![Castle Design Screenshot](./screenshot.png)`
+ ![Castle Design Screenshot](./cd_ss.png)
 
 ## 🚀 Run Locally
 
